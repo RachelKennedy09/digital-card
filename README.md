@@ -1,12 +1,34 @@
-# React + Vite
+ ## what I learned
+React app structure: index.html (root), main.jsx (mounts React), App.jsx (component tree), index.css (global styles).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+When to use /public vs /src for images (static vs imported, bundler-managed).
 
-Currently, two official plugins are available:
+JSX differences from HTML: className, semantic elements like <main>, headings, alt text.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Styling patterns: CSS variables, object-fit for hero images, focus-visible for a11y.
 
-## Expanding the ESLint configuration
+Git habits: early init, small commits, clear messages, pushing to GitHub.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Wins
+
+Built a clean, responsive card with semantic HTML and a11y focus.
+
+Practiced Trello → small steps → accept criteria mindset.
+
+Set up Git/GitHub like a real project.
+
+## Challenges
+
+Remembering className vs class in JSX.
+
+Understanding /public vs /src assets.
+
+Getting comfortable with Vite’s dev server and file structure.
+
+## Next time
+
+Split sections into components.
+
+Add icons + brand palette.
+
+Deploy to GitHub Pages.
