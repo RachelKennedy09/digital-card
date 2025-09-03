@@ -1,10 +1,12 @@
 //default function to keep app running and giving clean slate
-//App.jsx is jsut a function that returns markup in components
+//App.jsx is just a function that returns markup in components
 import avatar from "./assets/avatar.jpg"
+
+
 export default function App() {
   return (
     <main className="card" role="main">
- <img className="avatar" src={avatar} alt="Headshot of Rachel Kennedy" />
+ <img className="avatar" src={avatar} alt="Photo of Rachel Kennedy" />
 
       <h1 className="name">Rachel Kennedy</h1>
       <p className="role">Software Development Student</p>
